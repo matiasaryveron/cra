@@ -1,5 +1,5 @@
 import React from 'react'
-import Local from "../../../assets/Local.jpg"
+import Local from "../../assets/Local.jpg"
 
 const Home = () => {
   return (

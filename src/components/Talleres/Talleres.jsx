@@ -1,8 +1,8 @@
 import React from 'react';
-import Taller1 from '../../../assets/Taller1.png';
-import Taller2 from '../../../assets/Taller2.jpeg';
-import Taller3 from '../../../assets/Taller3.jpeg';
-import Taller4 from '../../../assets/Taller4.jpg';
+import Taller1 from '../../assets/Taller1.png';
+import Taller2 from '../../assets/Taller2.jpeg';
+import Taller3 from '../../assets/Taller3.jpeg';
+import Taller4 from '../../assets/Taller4.jpg';
 
 const Talleres = () => {
   const talleres = [

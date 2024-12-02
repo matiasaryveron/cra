@@ -1,5 +1,5 @@
 import React from 'react'
-import who1 from '../../../assets/who1.png'
+import who1 from '../../assets/who1.png'
 
 const  Who = () => {
 return (
