@@ -26,7 +26,7 @@ const App = () => {
     AOS.refresh()
   }, []);
 
-  return  <main className='overflow-x-hidden bg-white dark:bg-black'>
+  return  <main className='overflow-x-hidden bg-black'>
 
     <Navbar />
     <Home />
