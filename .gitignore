@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+.env
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos del editor
+*.log
+*.swp
+.vscode/
