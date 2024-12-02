@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply bg-gradient-to-r from-primary to-secundary duration-300 py-2 px-6 text-white rounded-full hover:scale-105;
+  }
+}
+
+section {
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+section img:hover {
+  cursor: crosshair;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.description {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.group:hover .description {
+  opacity: 1;
+}
+
+.description-mobile {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  section {
+    width: 100%;
+    height: auto;
+  }
+
+  .description-mobile {
+    opacity: 1;
+  }
+}
