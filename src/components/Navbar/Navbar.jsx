@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import Logo from '../../assets/Logo.png';
+import Logo from '../../../public/Img/Logo.png';
 import { HiMenuAlt1, HiMenuAlt3 } from 'react-icons/hi';
 
 const NavLink = [
