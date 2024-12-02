@@ -47,9 +47,9 @@ const Features = () => {
         <div>
           <h1
             data-aos="fade-up"
-            className="text-3xl font-semibold text-center sm:text-4xl mb-12"
+            className="text-3xl font-semibold text-center sm:text-4xl mb-12 bg-clip-text text-transparent bg-gradient-to-r from-secundary to-primary"
           >
-            Why Choose Us
+          CONTACTOS
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
             {FeaturesData.map((data, index) => (
@@ -63,7 +63,6 @@ const Features = () => {
                 <div className="grid place-items-center"> {data.icon}</div>
                 <h1 className="text-2xl">{data.name}</h1>
                 <p>{data.description}</p>
-                {/* Información adicional agregada */}
                 <p className="text-sm text-gray-400">{data.additionalInfo}</p>
               </div>
             ))}
