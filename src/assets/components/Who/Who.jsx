@@ -1,5 +1,5 @@
 import React from 'react'
-import Who1 from '../../../assets/who1.png'
+import who1 from '../../../assets/who1.png'
 
 const  Who = () => {
 return (
@@ -8,7 +8,7 @@ return (
             <div className='grid
         grid-cols-1 sm:grid-cols-2 gap-8 place-items-center'>
             <div data-aos="fade-up" data-aos-once="false">
-                <img src={Who1} alt="" className=' w-full max-w-[400px] ' />
+                <img src={who1} alt="" className=' w-full max-w-[400px] ' />
             </div>
             <div className='order-2 sm:order-1 space-y-5 lg:pr-20'>
                 <h1  data-aos="fade-up" data-aos-delay="300"  className='dark:text-white text-4xl font-semibold'>
