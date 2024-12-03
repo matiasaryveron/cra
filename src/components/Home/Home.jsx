@@ -4,7 +4,7 @@ import Local from "../../../public/Img/Local.jpg"
 const Home = () => {
   return (
     <>
-      <div id="INICIO" className='py-12 sm:py-0 dark:bg-black dark:text-white duration-300 overflow-hidden'>
+      <div id="INICIO" className='py-12 sm:py-0  text-white duration-300 overflow-hidden'>
         <div className='container min-h-[700px] flex relative'>
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 place-items-center relative z-10'>
 
