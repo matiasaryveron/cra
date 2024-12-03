@@ -25,7 +25,6 @@ const Talleres = () => {
             Repuestos CRA te recomienda los mejores talleres de la zona, donde podrás encontrar excelentes profesionales que garantizan la óptima reparación de tu auto.
           </p>
         </div>
-        {/* Sección para pantallas grandes */}
         <section className="hidden lg:flex gap-4 text-center">
           {talleres.map((item, index) => (
             <div
@@ -40,7 +39,7 @@ const Talleres = () => {
                 className="rounded-md shadow-md w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p >{item.desc}</p>
+                <p>{item.desc}</p>
               </div>
             </div>
           ))}
@@ -53,7 +52,7 @@ const Talleres = () => {
                 alt={item.alt}
                 className="rounded-md shadow-md w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-100 transition-opacity duration-300">
                 <p data-aos="fade-up" data-aos-delay="500">{item.desc}</p>
               </div>
             </div>
