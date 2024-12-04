@@ -17,7 +17,7 @@ return (
                     QUIENES SOMOS
                 </span>{" "}
                 </h1>
-                <p data-aos="fade-up" data-aos-delay="500"  className='dark:text-white'>
+                <p data-aos="fade-up" data-aos-delay="500"  className='text-white'>
                 Desde 2013, en Repuestos CRA nos especializamos en la comercialización de repuestos Chevrolet originales y alternativos de alta calidad. Nos destacamos por ofrecer productos confiables que garantizan el rendimiento y la durabilidad de tu vehículo.Ubicados en Villa Devoto, Capital Federal, brindamos atención personalizada para ayudarte a encontrar el repuesto exacto que necesitas, ya sea para mantenimiento, reparación o mejora de tu auto.
                 </p>
             </div>
