@@ -9,7 +9,7 @@ const FeaturesData = [
     icon: (
       <FaWhatsapp className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "https://api.whatsapp.com/send/?phone=5491133320582&text&type=phone_number&app_absent=0", 
+    link: "https://wa.me/5491133320582?text=Hola%20%F0%9F%91%8B%2C%20te%20contacto%20desde%20la%20p%C3%A1gina%20web%2C%20quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n.", 
     description: "+54 9 11-3332-0582",
     additionalInfo: "¡Contáctanos al instante!",
     aosDelay: "300",
