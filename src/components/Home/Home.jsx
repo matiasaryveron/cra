@@ -1,5 +1,6 @@
 import React from 'react'
 import Local from "../../../public/Img/Local.jpg"
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
@@ -20,7 +21,9 @@ const Home = () => {
                 Ofrecemos una amplia gama de repuestos y accesorios Chevrolet, con envío a todo el país y opciones de financiamiento en cuotas fijas, asegurando calidad y confiabilidad en cada producto.
               </p>
               <div className='flex gap-6'>
+              <Link to="CONTACTO" smooth={true} duration={500} >
                 <button data-aos= "fade-up" data-aos-delay="200" className='primary-btn text-black'>Contactenos</button>
+                </Link>
               </div>
             </div>
 
