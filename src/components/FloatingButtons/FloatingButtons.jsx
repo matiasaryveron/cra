@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 function FloatingButtons() {
 return (
-    <div className="fixed bottom-4 right-4 flex flex-col items-center gap-2">
+    <div className="fixed bottom-4 right-4 flex flex-col items-center gap-2 z-10">
     <a
         href="https://wa.me/5491133320582?text=Hola%20%F0%9F%91%8B%2C%20te%20contacto%20desde%20la%20p%C3%A1gina%20web%2C%20quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n."
         target="_blank"
