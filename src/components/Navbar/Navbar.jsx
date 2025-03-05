@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import Logo from '../../../public/Img/Logo.png';
+import logoName from '../../../public/Img/logoName.jpg';
 import { HiMenuAlt1, HiMenuAlt3 } from 'react-icons/hi';
 
 const NavLink = [
@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container py-2 md:py-0 text-white">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <img src={Logo} alt="Repuestos Cra" className="h-16" />
+            <img src={logoName} alt="Repuestos Cra" className="h-16" />
             <p className="text-3xl">
               REPUESTOS <span className="font-bold">CRA</span>
             </p>
